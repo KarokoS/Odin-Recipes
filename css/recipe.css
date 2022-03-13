@@ -1,0 +1,59 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* Basic Reset */
+*,
+*:before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    line-height: 5rem;
+    text-align: center;
+}
+
+h2 {
+    line-height: 3rem;
+    text-align: center;
+}
+
+h3 {
+    line-height: 3rem;
+    text-align: center;
+}
+
+p {
+    letter-spacing: 1.5px;
+    text-overflow: hidden;
+    padding: 1rem 2rem;
+    text-align: justify;
+}
+
+ul {
+    text-align: justify;
+    margin: auto 25rem;
+}
+
+ol {
+    text-align: justify;
+    margin: auto 8rem;
+    list-style: none;
+}
+
+img {
+    height: auto;
+    width: 400px;
+    margin: auto 25rem;
+}
