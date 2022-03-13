@@ -22,11 +22,13 @@ h1 {
     text-transform: uppercase;
     line-height: 5rem;
     text-align: center;
+    color: aqua;
 }
 
 h2 {
     line-height: 3rem;
     text-align: center;
+    color: aquamarine;
 }
 
 h3 {
